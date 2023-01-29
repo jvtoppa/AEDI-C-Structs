@@ -1,1 +1,1 @@
-C Exercises related to structs and arrays. 
+C Exercises related to structs, arrays and pointers. 
