@@ -101,14 +101,16 @@ int main(){
 
     VetorInteligente z = cria();
 
-    while (dec>=1){
+    while (dec >= 1){
+        
         bin = converte(dec);
         z = adiciona(z, bin);
 
-        dec = dec/2;
+        dec = dec / 2;
     }
     
     mostra(z);
     destroi(z);
+    
     return 0;
 }
